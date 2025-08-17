@@ -1,107 +1,207 @@
-{
-  "status": "0",
-  "id": [
-    {
-      "id_kejati": "00"
-    },
-    {
-      "id_kejati": "01"
-    },
-    {
-      "id_kejati": "02"
-    },
-    {
-      "id_kejati": "03"
-    },
-    {
-      "id_kejati": "04"
-    },
-    {
-      "id_kejati": "05"
-    },
-    {
-      "id_kejati": "06"
-    },
-    {
-      "id_kejati": "07"
-    },
-    {
-      "id_kejati": "08"
-    },
-    {
-      "id_kejati": "09"
-    },
-    {
-      "id_kejati": "10"
-    },
-    {
-      "id_kejati": "11"
-    },
-    {
-      "id_kejati": "12"
-    },
-    {
-      "id_kejati": "13"
-    },
-    {
-      "id_kejati": "14"
-    },
-    {
-      "id_kejati": "15"
-    },
-    {
-      "id_kejati": "16"
-    },
-    {
-      "id_kejati": "17"
-    },
-    {
-      "id_kejati": "18"
-    },
-    {
-      "id_kejati": "19"
-    },
-    {
-      "id_kejati": "20"
-    },
-    {
-      "id_kejati": "21"
-    },
-    {
-      "id_kejati": "22"
-    },
-    {
-      "id_kejati": "23"
-    },
-    {
-      "id_kejati": "24"
-    },
-    {
-      "id_kejati": "25"
-    },
-    {
-      "id_kejati": "26"
-    },
-    {
-      "id_kejati": "27"
-    },
-    {
-      "id_kejati": "28"
-    },
-    {
-      "id_kejati": "29"
-    },
-    {
-      "id_kejati": "30"
-    },
-    {
-      "id_kejati": "31"
-    },
-    {
-      "id_kejati": "32"
-    },
-    {
-      "id_kejati": "33"
-    }
-  ]
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etrio Widodo - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1, h2, h3 {
+            margin: 10px 0;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .skill-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .progress {
+            background-color: #ddd;
+            border-radius: 5px;
+            height: 10px;
+            width: 100px;
+            margin-left: 10px;
+        }
+        .progress-bar {
+            background-color: #4caf50;
+            height: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Etrio Widodo</h1>
+        <p>Phone: +(62) 858 616 616 07</p>
+        <p>Email: etriowidodo@gmail.com</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <ul>
+            <li>Date of Birth: Jakarta, 25/09/1989</li>
+            <li>Gender: Male</li>
+            <li>Marital Status: Married</li>
+            <li>Religion: Islam</li>
+            <li>Nationality: Indonesian</li>
+            <li>Address: Perumahan Saputra Raya, Gandasoli, Sukabumi, West Java</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        
+        <h3>PT IDstar (Feb 2023 – Present)</h3>
+        <ul>
+            <li>ANTAM (Brankas Antam) as Senior Backend Developer – Java Spring Boot, PostgreSQL, Redis, ActiveMQ, Jenkins, Elasticsearch</li>
+            <li>XL Newxlife as Chapter Leader – Golang Echo, PostgreSQL, AWS, GCP, Redis, Elasticsearch</li>
+            <li>Ministry of Health (e-Renggar v2) as Project Manager – PHP CodeIgniter 4, MySQL</li>
+            <li>Ministry of Finance (ALADIN) as Developer – Java Spring Boot, MySQL</li>
+            <li>Attorney General’s Office as Senior Developer – Yii2 (PHP), PostgreSQL, Java, Oracle</li>
+            <li>Ministry of Finance (SIKD DAKNF) as Developer – Django, Python, PostgreSQL, Redis</li>
+            <li>AI Portal Sukabumi City – LLM as Project Manager Ollama, Dolphin-Mistral, Mivlus, MinIO</li>
+        </ul>
+
+        <h3>PT Ogya Tekno Nusantara (Jan 2022 – Jan 2023)</h3>
+        <ul>
+            <li>Bank BCAD Microservices as Backend Developer – Java Spring Boot, PostgreSQL</li>
+            <li>Ministry of Finance (ALADIN) as Developer – Java Spring Boot, MySQL</li>
+            <li>Attorney General’s CMS as Senior Developer – PHP Yii2, PostgreSQL, Oracle, Mysql, Java</li>
+            <li>Bank Permata (EBCP) as Developer – Spring MVC, MySQL</li>
+        </ul>
+
+        <h3>PT Maxima Inovative (Mar 2021 – Aug 2021)</h3>
+        <ul>
+            <li>Bank BCAD Microservices as Backend Developer – Java Spring Boot, PostgreSQL</li>
+            <li>Ministry of Finance (ALADIN) as Developer – Java Spring Boot, MySQL</li>
+            <li>Attorney General’s CMS as Developer – PHP Yii2, PostgreSQL</li>
+            <li>Bank Permata (EBCP) as Developer – Spring MVC, MySQL</li>
+        </ul>
+
+        <h3>PT Murfa Surya Mahardika (Mar 2016 – Mar 2021)</h3>
+        <ul>
+            <li>Development of SIMKARI CMS for Attorney General’s Office (all modules: Pre-prosecution, Prosecution, Legal Action, Execution, Dashboard, Datun, Pidum, Pidsus)</li>
+            <li>DAK Non-Fisik Reporting System (DJPK Kemenkeu): BOK, BOKB, BOS, PK2UKM, ADMINDUK, BOS Afirmasi, BOS Kinerja, Pariwisata, BOKT</li>
+            <li>SPPTI System with Police, Courts, and Ministry of Law</li>
+            <li>Nurses Certification Information System – BPSDMK, Ministry of Health</li>
+            <li>Monitoring Trend App (Montren) – DJPK -> all of this description as Senior Developer</li>
+        </ul>
+
+        <h3>Early Projects (Mar 2007 – Feb 2016)</h3>
+        <ul>
+            <li>PPDB System as Teacher – SMKN 1 Sukalarang</li>
+            <li>AIEM PAS SMK as Operator Staff – Department of Education, Sukabumi</li>
+            <li>Online Diploma Certificate System as Operator Staff – Department of Education</li>
+            <li>Training Information System as Developer – National Crypto Agency (Lemsaneg)</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>1994–2000 – SDN Babakan Pamoyanan</li>
+            <li>2000–2003 – SLTPN 1 Kebon Pedes</li>
+            <li>2003–2006 – SMAN 1 Sukaraja</li>
+            <li>2008–2010 – D3, Politeknik Sukabumi</li>
+            <li>2014–2016 – S1, STMIK PASIM Sukabumi</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>I have hands-on experience with a wide range of technologies across backend development, database design, system integration, DevOps, and cloud infrastructure.</p>
+        <h3>Key Areas of Expertise</h3>
+        <ul>
+            <li>Backend: Java (Spring Boot), PHP (CodeIgniter, Yii2), Python (Django), Golang (Echo), Node.js</li>
+            <li>Databases: PostgreSQL, MySQL, Oracle</li>
+            <li>DevOps & Tools: Jenkins, Git, Docker, Redis, RabbitMQ, Pentaho</li>
+            <li>Cloud & AI: AWS, GCP, LLM (Ollama, Mistral, Mivlus), MinIO</li>
+            <li>Strong in system architecture, technical documentation, and team collaboration</li>
+        </ul>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Able to work independently and in a team</li>
+            <li>Strong organizational and project management capabilities</li>
+            <li>Effective communication in both Bahasa Indonesia and English</li>
+        </ul>
+        <h3>Technologies</h3>
+        <div class="skills-grid">
+            <div class="skill-item">PHP <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">Python <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">Java <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">Go <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">MySQL <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">PostgreSQL <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">SQL Server <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div></div>
+            <div class="skill-item">Oracle <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div></div>
+            <div class="skill-item">CI4 <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">SpringBoot <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">SpringMvc <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div></div>
+            <div class="skill-item">Django <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">GIT <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">Redis <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">RabbitMq <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div></div>
+            <div class="skill-item">Mivlus <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div></div>
+            <div class="skill-item">LLM OLAMA <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div></div>
+            <div class="skill-item">Minio <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div></div>
+            <div class="skill-item">Cordova <div class="progress"><div class="progress-bar" style="width: 70%; background-color: #ffeb3b;"></div></div></div>
+            <div class="skill-item">Echo <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">Laravel <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div></div>
+            <div class="skill-item">Pentaho <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div></div>
+            <div class="skill-item">ElasticSearch <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">Grafana <div class="progress"><div class="progress-bar" style="width: 70%; background-color: #ffeb3b;"></div></div></div>
+            <div class="skill-item">Node Js <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div></div>
+            <div class="skill-item">Angular <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div></div>
+            <div class="skill-item">YII2 <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">Appjar <div class="progress"><div class="progress-bar" style="width: 60%; background-color: #f44336;"></div></div></div>
+            <div class="skill-item">VBA <div class="progress"><div class="progress-bar" style="width: 70%; background-color: #ffeb3b;"></div></div></div>
+            <div class="skill-item">MS Office <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">Jenkins <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">OS Windows <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+            <div class="skill-item">OS Ubuntu <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div></div>
+            <div class="skill-item">OS Mac <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div></div>
+            <div class="skill-item">Docker <div class="progress"><div class="progress-bar" style="width: 100%;"></div></div></div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Declaration</h2>
+        <p>I hereby declare that the above and below information is true and accurate to the best of my knowledge.</p>
+        <p>Warm regards,</p>
+        <p>Etrio Widodo</p>
+    </footer>
+</body>
+</html>
